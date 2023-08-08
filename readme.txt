@@ -129,22 +129,23 @@ Check out our video tutorial on how to use WP MVC Plugin:
 
 == Support ==
 
-For plugin support, please visit the [WP MVC support forum](https://wordpress.org/support/plugin/wpmvc).
+For plugin support, please visit the [WP MVC support forum](https://vedyweb.wordpress.org/support/plugin/wpmvc).
 
 == Contact Us ==
 
-Got questions? Contact us at support@vedyweb.com or visit our website [https://vedyweb.com/contact](https://vedyweb.com/contact).
+Got questions? Contact us at info@vedyweb.com or visit our website [https://vedyweb.wordpress.com](https://vedyweb.wordpress.com).
 
 == Follow Us ==
 
 Stay up-to-date with the latest news and updates by following us on social media:
+- [Github](https://github.com/vedyweb)
 - [Twitter](https://twitter.com/vedyweb)
-- [Facebook](https://facebook.com/vedyweb)
-- [Instagram](https://instagram.com/vedyweb)
+- [Mediun](https://vedyweb.medium.com/)
+- [Linkedin](https://www.linkedin.com/company/vedyweb)
 
 == Contribute ==
 
-Contribute to the continued development of WP MVC Plugin on [GitHub](https://github.com/yourusername/wpmvc). Your contributions are welcome!
+Contribute to the continued development of WP MVC Plugin on [GitHub](https://github.com/vedyweb/wpmvc). Your contributions are welcome!
 
 == Changelog ==
 
