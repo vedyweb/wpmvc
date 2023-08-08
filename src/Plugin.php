@@ -22,7 +22,7 @@ class Plugin {
         register_activation_hook($plugin_url, array($this, 'insert_data'));
         add_action('plugins_loaded', array($this, 'db_check_for_update_by_refresh'));
         register_deactivation_hook($plugin_url, array($this, 'truncate_data'));
-        register_uninstall_hook(MY_PLUGIN_URL, array($this, 'drop_table'));
+        // register_uninstall_hook(MY_PLUGIN_URL, array($this, 'drop_table'));
         
     }
 

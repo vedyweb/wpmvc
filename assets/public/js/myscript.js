@@ -1,1 +1,0 @@
-// alert("JS Dosyasından Selam Dostum!");
