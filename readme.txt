@@ -1,5 +1,6 @@
 === WP MVC ===
 Contributors: vedyweb
+Donate link: https://www.buymeacoffee.com/vedyweb
 Tags: mvc, plugin, framework, development
 Requires at least: 5.6
 Tested up to: 5.8
@@ -88,17 +89,33 @@ Code is like humor. When you have to explain it, it’s bad. – Cory House
 
 == Frequently Asked Questions ==
 
-= How do I create a new custom post type? =
+= What is the WPMVC Plugin? =
 
-Creating a custom post type is easy with WP MVC Plugin:
-1. Go to the 'WP MVC' settings page.
-2. Click on the 'Custom Post Types' tab.
-3. Click the 'Add New' button and fill in the required details.
-4. Save your changes.
+WPMVC (WordPress MVC) is a plugin specifically designed for WordPress developers. This plugin enables developers to manage WordPress projects in a more organized and scalable manner using the Model-View-Controller (MVC) design pattern.
+
+= What Should I Do After Installing the Plugin? = 
+
+Once you install the WPMVC plugin, it starts working right away. The plugin includes pre-built CRUD (Create, Read, Update, Delete) operations, menu, and page examples. You can quickly experience basic functionality using these examples.
+
+= Why Should I Use the MVC Design Pattern? =
+
+The MVC design pattern helps you organize your code in a more modular and maintainable way. By separating data, views, and business logic, it makes the development process easier. WPMVC supports using this design pattern in your WordPress projects.
 
 = How do I leverage MVC architecture in my plugin? =
 
 WP MVC Plugin provides a robust framework for implementing the Model-View-Controller architecture. Refer to the extensive documentation for detailed usage instructions, code samples, and best practices.
+
+= How Can I Create CRUD Operations? =
+
+The WPMVC plugin helps you create simple and effective CRUD (Create, Read, Update, Delete) operations. You can use pre-defined examples to create database tables, add, update, and delete data.
+
+= How Do I Create Menus and Pages? = 
+
+The plugin assists you in creating custom menus and pages in your WordPress dashboard. This feature is useful for enhancing user interfaces and managing content.
+
+= Is the Plugin Customizable? = 
+
+Yes, the WPMVC plugin is flexible and allows for customization. You can tailor it to your specific needs by following the instructions provided in the plugin documentation.
 
 == Screenshots ==
 
