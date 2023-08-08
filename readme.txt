@@ -1,4 +1,4 @@
-=== WP MVC ===
+=== WPMVC ===
 Contributors: vedyweb
 Donate link: https://www.buymeacoffee.com/vedyweb
 Tags: mvc, plugin, framework, development
@@ -9,11 +9,11 @@ Requires PHP: 7.2.5
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-WP MVC Plugin is a powerful tool designed to enhance the functionality of your WordPress website. Built with an Object-Oriented Programming (OOP) approach and following the Model-View-Controller (MVC) architectural pattern, this plugin provides developers with a solid foundation for creating professional, efficient, and maintainable code.
+WPMVC Plugin is a powerful tool designed to enhance the functionality of your WordPress website. Built with an Object-Oriented Programming (OOP) approach and following the Model-View-Controller (MVC) architectural pattern, this plugin provides developers with a solid foundation for creating professional, efficient, and maintainable code.
 
 == Description ==
 
-WP MVC Plugin is a versatile and developer-friendly plugin that simplifies the process of creating complex WordPress plugins. It follows the MVC design pattern, allowing you to separate your code into manageable components, making your plugin more maintainable and scalable.
+WPMVC Plugin is a versatile and developer-friendly plugin that simplifies the process of creating complex WordPress plugins. It follows the MVC design pattern, allowing you to separate your code into manageable components, making your plugin more maintainable and scalable.
 
 Features:
 - **MVC Architecture**: Utilize the power of the Model-View-Controller architecture to organize your codebase and improve maintainability.
@@ -85,7 +85,7 @@ Code is like humor. When you have to explain it, it’s bad. – Cory House
 
 1. Upload the `wpmvc` folder to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
-3. Visit the 'WP MVC' settings page to get started.
+3. Visit the 'WPMVC' settings page to get started.
 
 == Frequently Asked Questions ==
 
@@ -103,7 +103,7 @@ The MVC design pattern helps you organize your code in a more modular and mainta
 
 = How do I leverage MVC architecture in my plugin? =
 
-WP MVC Plugin provides a robust framework for implementing the Model-View-Controller architecture. Refer to the extensive documentation for detailed usage instructions, code samples, and best practices.
+WPMVC Plugin provides a robust framework for implementing the Model-View-Controller architecture. Refer to the extensive documentation for detailed usage instructions, code samples, and best practices.
 
 = How Can I Create CRUD Operations? =
 
@@ -124,12 +124,12 @@ Yes, the WPMVC plugin is flexible and allows for customization. You can tailor i
 
 == Video Tutorial ==
 
-Check out our video tutorial on how to use WP MVC Plugin:
+Check out our video tutorial on how to use WPMVC Plugin:
 [Link to Video Tutorial]
 
 == Support ==
 
-For plugin support, please visit the [WP MVC support forum](https://vedyweb.wordpress.org/support/plugin/wpmvc).
+For plugin support, please visit the [WPMVC support forum](https://vedyweb.wordpress.org/support/plugin/wpmvc).
 
 == Contact Us ==
 
@@ -145,7 +145,7 @@ Stay up-to-date with the latest news and updates by following us on social media
 
 == Contribute ==
 
-Contribute to the continued development of WP MVC Plugin on [GitHub](https://github.com/vedyweb/wpmvc). Your contributions are welcome!
+Contribute to the continued development of WPMVC Plugin on [GitHub](https://github.com/vedyweb/wpmvc). Your contributions are welcome!
 
 == Changelog ==
 
@@ -155,7 +155,7 @@ Contribute to the continued development of WP MVC Plugin on [GitHub](https://git
 == Upgrade Notice ==
 
 = 1.0.0 =
-This is the first release of WP MVC Plugin, offering a powerful MVC framework for WordPress developers.
+This is the first release of WPMVC Plugin, offering a powerful MVC framework for WordPress developers.
 
 == Donate ==
 
@@ -164,4 +164,4 @@ If you find this plugin useful, consider supporting its development by making a 
 
 == License ==
 
-WP MVC Plugin is released under the GNU General Public License v3 or later.
+WPMVC Plugin is released under the GNU General Public License v3 or later.
