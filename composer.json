@@ -1,0 +1,25 @@
+{
+    "name": "vedyweb/wpmvc",
+    "description": "WPMVC Plugin is a powerful tool designed to enhance the functionality of your WordPress website. Built with an Object-Oriented Programming (OOP) approach and following the Model-View-Controller (MVC) architectural pattern, this plugin provides developers with a solid foundation for creating professional, efficient, and maintainable code.",
+    "type": "wordpress-mvc-plugin",
+    "homepage": "https://github.com/vedyweb/wpmvc",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Vedat Yıldırım",
+            "email": "info@vedyweb.com",
+            "homepage": "http://vedyweb.wordpress.com",
+            "role": "Software Solution Architect"
+        }
+    ],
+    "require": {
+    },
+    "keywords": [
+        "wordpress", "wordpress-mvc", "wordpress-mvc-plugin", "wpmvc", "wp mvc" 
+    ],
+    "autoload": {
+        "psr-4": {
+            "VEDYWEB\\WPMVC\\": "src/"
+        }
+    }
+}

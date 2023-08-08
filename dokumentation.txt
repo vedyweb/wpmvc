@@ -1,0 +1,95 @@
+The Vedyweb - WPMVC - WordPress MVC Plugin project structure is designed to provide a modern and sustainable development experience. This project structure aims to contribute to the open-source world and help you manage your WordPress projects more effectively.
+
+wp-content/plugins/
+└── wpmvc/
+    ├── src/                            // Houses the core logic and components.
+    │   ├── Api/                        // Managing plugin logic related APIs.
+    │   │   └──  NoteResource.php
+    │   │   └── ...
+    │   ├── Controller/                 // Handling main plugin logic.
+    │   │   └──  NoteController.php
+    │   │   └── ...
+    │   ├── Model/                      // Handling database operations and Data transfer.
+    │   │   └── NoteModel.php   
+    │   │   └── ...
+    │   ├── View/                       // View classes for plugin visuals and templates.
+    │   │   └── NoteView.php
+    │   │   └── ...
+    │   ├── Core/                       // Handling assets like Asset( CSS, JS, Img) etc.
+    │   │   └── Asset.php     
+    │   │   └── ...
+    │   ├── Utils/                      // External classes like loggers.
+    │   │   └── Logger.php      
+    │   │   └── ...
+    │   └── Bootstrap.php               // Main plugin class (Setup) to bring components together.
+    │   
+    ├── templates/                      // Templates directory
+    │   ├── base/
+    │   │   └── view.php
+    │   │   └── edit.php
+    │   ├── node/
+    │       └── add.php
+    │       └── edit.php
+    │       └── list.php
+    │       └── ...
+    │   
+    ├── tests/                          // Managing test cases
+    │   └── TestCase.php
+    │   ├── Model/
+    │        └── ExampleModelTest.php
+    │ 
+    ├── assets/                         // Template entities like CSS, JS, Images etc.
+    │   ├── css/
+    │   │   └── style.css
+    │   ├── js/
+    │   │   └── script.js
+    │   └── images/
+    │       └── sample.png
+    │    
+    ├── languages/                      // Language translation folder for internationalization
+    │   └── wpmvc.pot  
+    │ 
+    ├── logs/                           // Log folder capturing plugin errors and warnings
+    │   └── error.log
+    │
+    ├── composer.json                   // Configuration for Composer dependencies.
+    ├── README.md                       // Comprehensive documentation about the plugin.
+    └── wpmvc.php                      // Primary plugin file for configures settings.
+
+
+Here is a comprehensive guide that explains the core components of your project in detail:
+
+src/ (Source Code) This folder houses the core logic and components of your plugin. Sub-folders within the src/ folder are used to group classes that serve different purposes:
+
+Api/: Contains API components that interact with external applications or services. You can handle data exchange, session management, and authorization processes in this section.
+
+Controller/: Includes controller classes that effectively manage the logic of your plugin. This folder is used for grouping functions, coordinating data operations, and managing user interactions.
+
+Model/: Contains model classes for database operations and data manipulation. This folder simplifies interacting with database tables and ensures data consistency. It provides the foundational building blocks for processing data and implementing business logic.
+
+View/: Contains the views and templates that constitute the user interface of your plugin. Views are template files created using HTML and custom tags. They are the points where users interact with your plugin, enabling communication with the external world.
+
+Core/: Contains classes that provide core functionality. For instance, you can use this folder for managing style and script files, handling caching, and processing errors.
+
+Utils/: Holds helper classes. This folder is used for grouping and sharing general-purpose functions. For example, you can keep utility functions for logging, data validation, date operations, and more.
+
+templates/ (Templates): This folder includes the view templates of your plugin. It defines how pages and components offered by your plugin are displayed. By creating custom templates, you can customize your user interface and present different content in various ways.
+
+tests/ (Tests): This folder contains unit tests for your plugin. Unit tests help ensure that your code functions correctly. By creating separate test classes for each component or function, you can enhance the reliability of your code and detect errors at an early stage.
+
+assets/ (Assets): This folder contains the style and script files of your plugin. By storing your CSS and JavaScript files here, you can customize the appearance of your plugin and enrich user interactions.
+
+languages/ (Language Files): This folder contains language files that allow you to translate your plugin into different languages. Translation is important for reaching a wider user base and enhancing the user experience.
+
+logs/ (Log Files): This folder contains error logs for your plugin. By recording errors and warnings, you can quickly resolve issues during the development process and improve code quality.
+
+composer.json: This file contains your plugin's Composer dependencies and other project information. Composer is used to manage PHP dependencies and enhance the efficiency of your development process.
+
+README.md: This file provides documentation about how to use, install, and other information about your plugin. By guiding users and other developers, you make your project more accessible.
+
+wpmvc.php: This file contains the introduction of your plugin to WordPress and necessary settings. When your plugin is installed and activated, this file is executed first.
+
+
+Example CRUD Application The sample CRUD (Create, Read, Update, Delete) application within our project helps you understand basic database operations and user interactions. This example serves as a valuable resource for learning about and improving the core capabilities of your plugin.
+
+The WPMVC - WordPress MVC Plugin project structure is open-source and available to the community. It follows OOP and MVC principles, supporting you in developing more organized and sustainable projects. For more information, usage guides, and examples, please visit our project documentation. Help us enhance the project through your contributions!
